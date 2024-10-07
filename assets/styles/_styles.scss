@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Rubik", sans-serif;
+}
+
+body{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .block{
+        max-width: 480px;
+    
+        .container{
+            margin: 0 auto;
+            width: 93%;
+            height: 100%;
+            max-width: 1940px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 70px 0px; 
+        
+            .logo{
+                width: 90px;
+                height: 90px;
+                border-radius: 50%;
+                overflow: hidden;
+            
+                img{
+                    width: 100%;
+                }
+            }
+
+            .top{
+                text-align: center;
+                margin-top: 15px;
+
+                h3{
+                    font-size: 24px;
+                    color: #000844;
+                }
+
+                p{
+                    font-size: 16px;
+                }
+            }
+
+            .social-media-pages{
+                margin-top: 40px;
+                display: flex;
+                gap: 25px;
+
+                .smp{
+                    width: 44px;
+                    height: 44px;
+                    background-color: #000844;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 6px;
+
+                    img{
+                        width: 50%;
+                    }
+                }
+            }
+
+            .btns{
+                width: 100%;
+                margin-top: 35px;
+                display: flex;
+                flex-direction: column;
+                gap: 12px;
+
+                .btn{
+                    width: 100%;
+                    border: 1px solid #000844;
+                    padding: 15px;
+                    border-radius: 32px;
+                    font-size: 16px;
+                    color: #000844;
+                    cursor: pointer;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                }
+            }
+            
+            hr{
+                margin: 32px 0px;
+                border: none;
+                width: 100%;
+                height: .5px;
+                background-color: #000844;
+            }
+
+            .input{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+                text-align: center;
+
+                h2{
+                    font-size: 18px;
+                    font-style: normal;
+                    color: #000844;
+                }
+
+                .input-field{
+                    position: relative;
+                    border-radius: 32px;
+                    overflow: hidden;
+
+                    input{
+                        border: 1px solid #000844;
+                        outline: none;
+                        border-radius: 32px;
+                        padding: 15px;
+                        width: 100%;
+    
+                        &::placeholder{
+                            font-size: 14px;
+                            color: #00084489;
+                        }
+                    }
+    
+                    .icon{
+                        position: absolute;
+                        width: 64px;
+                        height: 100%;
+                        right: 0;
+                        top: 0;
+                        background-color: #000844;
+                        color: #fff;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        cursor: pointer;
+                    }
+                }
+            }
+
+            .location{
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+
+                h2{
+                    font-size: 18px;
+                    text-align: center;
+                    font-style: normal;
+                    color: #000844;
+                }
+
+                iframe{
+                    width: 100%;
+                    height: 200px;
+                }
+
+                p{
+                    font-size: 16px;
+                    color: #000844;
+                    display: flex;
+                    gap: 10px;
+                }
+            }
+        }
+    }
+}
